@@ -1,3 +1,13 @@
+# 二叉树层次遍历
+
+## 199. 二叉树的右视图
+https://leetcode.cn/problems/binary-tree-right-side-view/description/
+## 102. 二叉树的层序遍历
+- https://leetcode.cn/problems/binary-tree-level-order-traversal/description/
+## 103. 二叉树的锯齿形层序遍历
+https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/description
+
+# 核心模板
 ```
 /**
  * Definition for a binary tree node.
@@ -14,15 +24,8 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
-        // 最终结果：存储每层最右边节点的值
-        vector<int> ret;
-        // 可选：保存整棵树按层分组的节点值（便于调试）
-        vector<vector<int>> dst;
 
-        // 边界条件：空树直接返回空结果
-        if (!root) {
-            return ret;
-        }
+        ...
 
         // 使用队列实现 BFS（层次遍历）
         queue<TreeNode*> que;
@@ -54,18 +57,6 @@ public:
             // 保存当前层结果
             dst.push_back(cur);
         }
-
-        // 调试输出：打印每一层的节点（可删除）
-        for (auto itri : dst) {
-            for (auto itrj : itri) {
-                cout << itrj << ",";
-            }
-            cout << endl;
-            // 每层最后一个元素即为右视图看到的节点
-            ret.push_back(itri.back());
-        }
-
-        return ret;
     }
 };
 ```
