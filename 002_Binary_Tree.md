@@ -38,3 +38,26 @@ void getallnodes(TreeNode* root, vector<TreeNode*>& allnodes) {
         }
     }
 ```
+
+## 获取层数
+```
+        int ret = 0;
+        queue<TreeNode*> que;
+        que.push(root);
+        while (!que.empty()) {
+            int levelnum = que.size();
+            while (levelnum) {
+                TreeNode* tmp = que.front();
+                que.pop();
+                levelnum--;
+
+                if (tmp->left) {
+                    que.push(tmp->left);
+                }
+                if (tmp->right) {
+                    que.push(tmp->right);
+                }
+            }
+            ret++;
+        }
+```
