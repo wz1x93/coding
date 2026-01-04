@@ -4,7 +4,7 @@
 |---------------------------------------------|--------|---|
 | [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description) | 简单 | BFS |
 | [100. 相同的树](https://leetcode.cn/problems/same-tree/description) | 简单 | DFS(左等于左，右等于右，左右皆对，边际条件) |
-| 翻转二叉树                                   | 简单   ||
+| [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/description) | 简单 | BFS + std::swap操作|
 | 对称二叉树                                   | 简单   ||
 | 从前序与中序遍历序列构造二叉树               | 中等   ||
 | 从中序与后序遍历序列构造二叉树               | 中等   ||
