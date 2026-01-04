@@ -3,7 +3,7 @@
 | 题目名称                                      | 难度   |思路|
 |---------------------------------------------|--------|---|
 | [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description) | 简单 |  |
-| 相同的树                                     | 简单   ||
+| [100. 相同的树](https://leetcode.cn/problems/same-tree/description) | 简单 ||
 | 翻转二叉树                                   | 简单   ||
 | 对称二叉树                                   | 简单   ||
 | 从前序与中序遍历序列构造二叉树               | 中等   ||
