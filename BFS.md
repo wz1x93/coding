@@ -10,7 +10,7 @@
 
 
 # 模板
-## 获取所有节点
+## BFS + 处理核心
 ```
         // 将vector转成unordered_set，提高查询速度
         unordered_set<string> wordSet(wordList.begin(), wordList.end());
