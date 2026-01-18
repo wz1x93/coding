@@ -5,7 +5,7 @@
 |---------------------------------------------|--------|---|
 | [373. 查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/description)| 中等+ | {sum,{nums1,nums2}} + 大顶堆 + 小于顶入堆 |
 | [502. IPO](https://leetcode.cn/problems/ipo/description)| 困难+ | 排序{capital, profit} + 小于成本所有备选项入堆 |
-| []()| 中等+ | 1 |
+| [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/description)| 困难 | 大顶堆存小半，小顶堆存大半 + 大顶size=小顶size+1 + 均衡两堆个数 |
 
 # 模板
 ## 大顶堆（默认）
