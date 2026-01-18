@@ -11,7 +11,7 @@
 | 从中序与后序遍历序列构造二叉树               | 中等   ||
 | 填充每个节点的下一个右侧节点指针 II          | 中等   ||
 | 二叉树展开为链表                             | 中等   ||
-| [112. 路径总和](https://leetcode.cn/problems/path-sum/description)                                     | 简单   | DFS + sum+= sum-=|
+| [112. 路径总和](https://leetcode.cn/problems/path-sum/description)                                     | 简单   | DFS + 总和回退sum+=root->val之后sum-=|
 | 求根节点到叶节点数字之和                     | 中等   ||
 | [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description)          | 困难 ||
 | 二叉搜索树迭代器                             | 中等   ||
