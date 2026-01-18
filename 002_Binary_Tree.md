@@ -1,5 +1,6 @@
 # 练习
 
+## 二叉树
 | 题目名称                                      | 难度   |思路|
 |---------------------------------------------|--------|---|
 | [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description) | 简单 | BFS |
@@ -17,7 +18,9 @@
 | [222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/description)             | 简单 ||
 | [236. 二叉树的最近公共祖](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description) | 中等 ||
 
-二叉树层次遍历
+## 二叉树层次遍历
+| 题目名称                                      | 难度   |思路|
+|---------------------------------------------|--------|---|
 | [637. 二叉树的层平均值](https://leetcode.cn/problems/average-of-levels-in-binary-tree/description) | 简单 | BFS |
 
 # 模板
