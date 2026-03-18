@@ -11,6 +11,7 @@
 - 20260315 34 + !153 + 33 先做153明确二分寻找最小值代码，然后33寻找最小值从两段二分找target
 - 20260316 230 + 199 + 35
 - 20260317 200 + !739 + 70 先进栈，出现大值不停出栈，记位置差
+- 20260318 994 + 56 + 21
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
