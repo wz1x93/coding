@@ -12,6 +12,7 @@
 - 20260316 230 + 199 + 35
 - 20260317 200 + !739 + 70 先进栈，出现大值不停出栈，记位置差
 - 20260318 994 + 56 + 21
+- 20260320 19 + 24 + 114 void flatten(TreeNode* root) 不能直接赋值：root = new_node 在 void 函数中对外部无效
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
