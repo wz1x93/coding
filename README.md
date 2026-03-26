@@ -17,6 +17,7 @@
 - 20260322 207 + 20 + 155 使用map统计dst对应的所有src，in_degree统计dst的边个数，找到入度为0的节点，BFS持续删除入度，最终确认in_degree是否都为0
 - 20260323 !208 + 347 + !101 前缀树构建字母多叉树，对称二叉树，左右都空回true，单左单右左右不等回false，回左左右右&&左右右左
 - 20260324 215 + !295 + 118  左等右（右推，左推右顶，右出顶），else（左推，右推左顶，左出顶）
+- 20260326 !394 + !2 + 169 stack<pair<int, string>> stk , int x = l1 != nullptr ? l1->val : 0 ，int sum = x + y + carry
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
