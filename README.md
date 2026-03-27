@@ -18,6 +18,7 @@
 - 20260323 !208 + 347 + !101 前缀树构建字母多叉树，对称二叉树，左右都空回true，单左单右左右不等回false，回左左右右&&左右右左
 - 20260324 215 + !295 + 118  左等右（右推，左推右顶，右出顶），else（左推，右推左顶，左出顶）
 - 20260326 !394 + !2 + 169 stack<pair<int, string>> stk , int x = l1 != nullptr ? l1->val : 0 ，int sum = x + y + carry
+- 20260327 189 + 25 + !543 某个节点开始左右延伸最远加和为最长（不是根节点）
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
