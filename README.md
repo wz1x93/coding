@@ -20,6 +20,7 @@
 - 20260326 !394 + !2 + 169 stack<pair<int, string>> stk , int x = l1 != nullptr ? l1->val : 0 ，int sum = x + y + carry
 - 20260327 189 + 25 + !543 某个节点开始左右延伸最远加和为最长（不是根节点）
 - 20260329 !55 + !45 + 121 1) farthest = max(farthest, i + nums[i]);  2) st = ed, ed = farthest+1
+- 20260330 198 + 79 + !141 快慢指针，快的先到NULL返回false，否则两个相遇
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
