@@ -23,6 +23,7 @@
 - 20260330 198 + 79 + !141 快慢指针，快的先到NULL返回false，否则两个相遇
 - 20260401 !287 + 226 + !152 快慢指针，维护最大最小两个值的DP处理
 - 20260402 199 + 1161 + 872 + !739 单调栈
+- 20260405 841 + 547 + ！1466 邻接表规避超时vector<<vector<pair<int, bool>>>>, graph[u].push_back({v,true});
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
