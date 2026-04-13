@@ -26,6 +26,7 @@
 - 20260405 841 + 547 + ！1466 邻接表规避超时vector<<vector<pair<int, bool>>>>, graph[u].push_back({v,true});
 - 20260407 2390 + !735 + !394 1)空入，2类直接入，3种对比区分出栈 2)stack<pair<int, string>> stk; [倍数，前缀字符] ，前缀 = 前缀 + 倍数*cur， cur 累加
 - 20260412 1926 + 994 + 1431
+- 20260414 151
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
