@@ -147,6 +147,8 @@ def calculate_normalized_atr(code, start_date, end_date, timeperiod=14):
 #     print("未获取到有效数据。")
 
 TRANSACTION_DATA = """
+定投 2026-04-14 100.00 3.6611
+定投 2026-04-13 200.00 3.6362
 定投 2026-04-10 100.00 3.6332
 定投 2026-04-09 100.00 3.5964
 定投 2026-04-08 100.00 3.6762
