@@ -27,6 +27,7 @@
 - 20260407 2390 + !735 + !394 1)空入，2类直接入，3种对比区分出栈 2)stack<pair<int, string>> stk; [倍数，前缀字符] ，前缀 = 前缀 + 倍数*cur， cur 累加
 - 20260412 1926 + 994 + 1431
 - 20260414 151
+- 20260415 1448 + !437 + 2215 dfs(TreeNode* root, vector<int> vec) 其中vec加不加&，当遍历完左子树回来时，vec 里依然残留着左子树的数据，结果就会出错！！！
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
