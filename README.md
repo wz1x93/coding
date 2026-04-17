@@ -29,6 +29,7 @@
 - 20260414 151
 - 20260415 1448 + !437 + 2215 dfs(TreeNode* root, vector<int> vec) 其中vec加不加&，当遍历完左子树回来时，vec 里依然残留着左子树的数据，结果就会出错！！！
 - 20260416 215 + !2542 + 206 维护一个大小为 k 的最小堆, 对于每个位置 i，我们假设当前 nums2[i] 是选中的 k 个数中 nums2 的最小值, 然后多了出堆，少了补，维护最大值
+- 20260417 !2462 + !338 + !136 1) 维护两个小根堆，出堆之后优先前堆进行补充，后堆可不补齐 2）auto bits = bitset(32)(i), bits.to_string() 3) 相同数字异或未0，0和任何数字异或都是这个数字
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
