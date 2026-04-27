@@ -32,6 +32,7 @@
 - 20260417 !2462 + !338 + !136 1) 维护两个小根堆，出堆之后优先前堆进行补充，后堆可不补齐 2）auto bits = bitset(32)(i), bits.to_string() 3) 相同数字异或未0，0和任何数字异或都是这个数字
 - 20260422 !649 + 933 + 198 两个queue按顺序push位置，循环处理（两个对齐位置谁前，谁继续后推+n，两个全pop），有一个为0退出
 - 20260423 2352 + 1207 + 1318
+- 20260427 374 + !2300 + !162 2)upper_bound(potions.begin(), potions.end(), target) - potions.begin())找到位置 3）踢出两边 if (nums[mid] > nums[mid + 1]) { r = mid;
 
 leetcode精选100完成后可以考虑刷这个
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md
